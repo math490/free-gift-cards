@@ -9,6 +9,13 @@ body {
     font-family: "Oswald", sans-serif;
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .card img {
     height: 48vh;
     border-radius: 15px;
@@ -19,8 +26,13 @@ body {
     justify-content: space-between;
     flex-direction: row;
     align-items: center;
-    padding: 7vh 3vh 3vh 3vh;
     flex-wrap: wrap;
+    margin-bottom: 5vh;
+}
+
+.gift-cards {
+    width: 70%;
+    height: 100%;
 }
 
 #steam img:hover{
@@ -51,6 +63,10 @@ header {
 
 @media(max-width: 500px) {
     .card {
-        margin-top: 10px;
+        margin-top: 5vh;
+    }
+
+    #um {
+        margin-bottom: 0;
     }
 }
