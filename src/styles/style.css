@@ -40,7 +40,8 @@ body {
 }
 #google img:hover{
      box-shadow: 4px 4px 10px rgba(1, 255, 35, 0.966),
-              -4px -4px 10px rgb(0, 140, 255);
+              -4px -4px 10px rgb(0, 140, 255),
+               -4px -4px 10px rgb(255, 251, 0);
 }
 
 header {
