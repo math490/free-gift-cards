@@ -10,7 +10,7 @@ body {
 }
 
 .card img {
-    height: 50vh;
+    height: 48vh;
     border-radius: 15px;
 }
 
@@ -19,7 +19,7 @@ body {
     justify-content: space-between;
     flex-direction: row;
     align-items: center;
-    padding: 10vh 5vh 5vh 5vh;
+    padding: 7vh 3vh 3vh 3vh;
     flex-wrap: wrap;
 }
 
@@ -34,6 +34,13 @@ body {
 }
 #xbox img:hover{
      box-shadow: 0 0 20px #02ad27;
+}
+#netflix img:hover{
+     box-shadow: 0 0 20px #e40505;
+}
+#google img:hover{
+     box-shadow: 4px 4px 10px rgba(1, 255, 35, 0.966),
+              -4px -4px 10px rgb(0, 140, 255);
 }
 
 header {
